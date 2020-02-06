@@ -1,4 +1,4 @@
-Update 1: Removed "Suspect" as the original data does not provide such info
+### Update 1: Removed "Suspect" as the original data does not provide such info
 
 
 # China_CoronaVirus_Data_Miner
