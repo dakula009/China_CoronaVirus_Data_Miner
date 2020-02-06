@@ -1,10 +1,12 @@
 # China_CoronaVirus_Data_Miner
 
-This simple python script collects data from the coronavirus status updates published by QQ. It focuses on China only.
+This simple python script collects data from the coronavirus status updates published by QQ. https://news.qq.com/zt2020/page/feiyan.htm 
+
+Note: It focuses on China only.
 
 The script grabs the data and save it into a csv format where the script is stored.
 
-The data mined cotains information at prefecture level.
+The data collected contains information at prefecture level.
 
 Fields of the output are as follows:
   1. Province (省)
