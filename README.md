@@ -11,7 +11,7 @@ The script grabs the data and save them into two seperate csv files in the path 
 
 The data collected contain information at both province and prefecture levels.
 
-Fields of the prefecture level output are as follows:
+Fields of the province level output are as follows:
   1. Province (省)
   2. Confirmed (确认)
   3. Dead (死亡)
