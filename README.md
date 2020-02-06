@@ -6,7 +6,7 @@ Data source: https://news.qq.com/zt2020/page/feiyan.htm
 
 Note: It focuses on China only.
 
-The script grabs the data and save them into a csv format where the script is stored.
+The script grabs the data and save them into a csv file where the script is stored.
 
 The data collected contain information at prefecture level.
 
