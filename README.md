@@ -9,7 +9,7 @@ Note: It focuses on China only.
 
 The script grabs the data and save them into two seperate csv files in the path where the script is stored.
 
-The data collected contain information at both province and prefecture levels.
+The data collected contain information at both *province* and *prefecture* levels.
 
 Fields of the province level output are as follows:
   1. Province (省)
