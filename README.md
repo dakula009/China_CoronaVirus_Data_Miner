@@ -1,3 +1,6 @@
+## Update 1: Removed "Suspect" as the original data does not provide such info
+
+
 # China_CoronaVirus_Data_Miner
 
 This simple python script collects data from the coronavirus status updates published by Tecent. 
