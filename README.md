@@ -17,5 +17,7 @@ Fields of the output are as follows:
   4. Suspected (疑似)
   5. Dead (死亡)
   6. Healed (治愈)
+  
+To run the script, please make sure you are using python 3.x, and have libraries of pandas and requests installed.
 
  
