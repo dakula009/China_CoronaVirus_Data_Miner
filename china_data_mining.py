@@ -37,7 +37,7 @@ for item in areaTree:
             item_cs = item_p['children']
             for item_c in item_cs:
                 prefecture = item_c['name']
-                # print('  ' + county)
+                # print('  ' + prefecture)
                 # print('  ' + str(item_c['total']))
                 confirm = item_c['total']['confirm']
                 suspect = item_c['total']['suspect']
