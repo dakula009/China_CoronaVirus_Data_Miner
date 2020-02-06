@@ -1,5 +1,3 @@
-#### Update 1: Removed "Suspect" as the original data does not provide such info
-
 
 # China_CoronaVirus_Data_Miner
 
@@ -25,6 +23,8 @@ To run the script, please make sure you are using python 3.x, and have libraries
 A sample result is also provided.
 
 # 武汉加油！ 中国加油！ #
+
+#### Update 1: Removed "Suspect" as the original data does not provide such info
 
 ⚠️ Disclaimer / Warning!
 This repository/project is intended for Educational/Research Purposes ONLY.
