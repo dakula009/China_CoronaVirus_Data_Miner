@@ -14,9 +14,8 @@ Fields of the output are as follows:
   1. Province (省)
   2. Prefecture (市)
   3. Confirmed (确认)
-  4. Suspected (疑似)
-  5. Dead (死亡)
-  6. Healed (治愈)
+  4. Dead (死亡)
+  5. Healed (治愈)
   
 To run the script, please make sure you are using python 3.x, and have libraries of pandas and requests installed.
 
