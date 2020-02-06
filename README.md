@@ -24,7 +24,7 @@ A sample result is also provided.
 
 # 武汉加油！ 中国加油！ #
 
-#### Update 1: Removed "Suspect" as the original data does not provide such info
+#### Update 1: Removed "Suspect" as the original data do not provide such info for prefecture level.
 
 ⚠️ Disclaimer / Warning!
 This repository/project is intended for Educational/Research Purposes ONLY.
