@@ -24,4 +24,8 @@ A sample result is also provided.
 
 # 武汉加油！ 中国加油！ #
 
+⚠️ Disclaimer / Warning!
+This repository/project is intended for Educational/Research Purposes ONLY.
+The project should not be used for any purpose other than learning. Please do not use it for any other non-educational or non-research reason and definitely don't depend on it for anything important!
+
  
