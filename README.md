@@ -6,9 +6,9 @@ Data source: https://news.qq.com/zt2020/page/feiyan.htm
 
 Note: It focuses on China only.
 
-The script grabs the data and save it into a csv format where the script is stored.
+The script grabs the data and save them into a csv format where the script is stored.
 
-The data collected contains information at prefecture level.
+The data collected contain information at prefecture level.
 
 Fields of the output are as follows:
   1. Province (省)
@@ -19,5 +19,9 @@ Fields of the output are as follows:
   6. Healed (治愈)
   
 To run the script, please make sure you are using python 3.x, and have libraries of pandas and requests installed.
+
+A sample result is also provided.
+
+# 武汉加油！ 中国加油！ #
 
  
