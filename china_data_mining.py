@@ -24,16 +24,31 @@ print('数据更新时间 ' + str(lastUpdateTime))
 
 areaTree = data['areaTree']
 
-# 创建空 dataframe
+# 创建空 dataframes
 col_names =  ['省', '市', '确认' , '死亡', '治愈']
+col_names_p =  ['省','确认' , '死亡', '治愈']
+
 my_df  = pd.DataFrame(columns = col_names)
+my_df_p = pd.DataFrame(columns = col_names_p)
 
 for item in areaTree:
     if item['name'] == '中国':
         item_ps = item['children']
+
+        # 遍历省级数据
         for item_p in item_ps:
             province = item_p['name']
             # print(province)
+            # print(item_p['total'])
+            confirm = item_p['total']['confirm']
+            death = item_p['total']['dead']
+            heal = item_p['total']['heal']
+
+            # 向df添加数据
+            data_dict = {'省': province,'确认': confirm, '死亡': death, '治愈': heal}
+            my_df_p.loc[len(my_df_p)] = data_dict
+
+            # 遍历地级数据
             item_cs = item_p['children']
             for item_c in item_cs:
                 prefecture = item_c['name']
@@ -49,6 +64,7 @@ for item in areaTree:
                 my_df.loc[len(my_df)] = data_dict
 
 # 保存数据
-my_df.to_csv(r'./china_status_{}.csv'.format(str(lastUpdateTime).split()[0]), encoding='utf_8_sig', header='true')
+my_df.to_csv(r'./china_prefecture_status_{}.csv'.format(str(lastUpdateTime).split()[0]), encoding='utf_8_sig', header='true')
+my_df_p.to_csv(r'./china_province_status_{}.csv'.format(str(lastUpdateTime).split()[0]), encoding='utf_8_sig', header='true')
 
 print('Success')
