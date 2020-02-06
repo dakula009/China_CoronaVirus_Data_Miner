@@ -25,7 +25,7 @@ print('数据更新时间 ' + str(lastUpdateTime))
 areaTree = data['areaTree']
 
 # 创建空 dataframe
-col_names =  ['省', '市', '确认' , '疑似', '死亡', '治愈']
+col_names =  ['省', '市', '确认' , '死亡', '治愈']
 my_df  = pd.DataFrame(columns = col_names)
 
 for item in areaTree:
@@ -40,12 +40,12 @@ for item in areaTree:
                 # print('  ' + prefecture)
                 # print('  ' + str(item_c['total']))
                 confirm = item_c['total']['confirm']
-                suspect = item_c['total']['suspect']
+                # suspect = item_c['total']['suspect']
                 death = item_c['total']['dead']
                 heal = item_c['total']['heal']
 
                 # 向df添加数据
-                data_dict = {'省': province, '市':prefecture, '确认': confirm, '疑似': suspect, '死亡': death, '治愈': heal}
+                data_dict = {'省': province, '市':prefecture, '确认': confirm, '死亡': death, '治愈': heal}
                 my_df.loc[len(my_df)] = data_dict
 
 # 保存数据
