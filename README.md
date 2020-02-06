@@ -1,6 +1,6 @@
 # China_CoronaVirus_Data_Miner
-Collects officially published stats for the corona-virus (China only)
-This simple python script collects data from the coronavirus status updates published by QQ.
+
+This simple python script collects data from the coronavirus status updates published by QQ. It focuses on China only.
 
 The script grabs the data and save it into a csv format where the script is stored.
 
