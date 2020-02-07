@@ -64,6 +64,8 @@ for item in areaTree:
                 my_df.loc[len(my_df)] = data_dict
 
 # 保存数据
+my_df.index += 1
+my_df_p.index += 1
 my_df.to_csv(r'./china_prefecture_status_{}.csv'.format(str(lastUpdateTime).split()[0]), encoding='utf_8_sig', header='true')
 my_df_p.to_csv(r'./china_province_status_{}.csv'.format(str(lastUpdateTime).split()[0]), encoding='utf_8_sig', header='true')
 
