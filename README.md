@@ -34,6 +34,8 @@ A set of sample results is also provided.
 
 #### Update 02-07-20: Added a new capability to get province level data.
 
+#### Update 02-15-20: Added a new field '新增确认' for newly added confrimed cases, as the data source now provides such info.
+
 ⚠️ Disclaimer / Warning!
 This repository/project is intended for Educational/Research Purposes ONLY.
 Please do not use it for any other non-educational or non-research reason and definitely don't depend on it for anything important!
