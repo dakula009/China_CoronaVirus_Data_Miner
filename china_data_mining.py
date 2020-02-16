@@ -25,8 +25,8 @@ print('数据更新时间 ' + str(lastUpdateTime))
 areaTree = data['areaTree']
 
 # 创建空 dataframes
-col_names =  ['省', '市', '确认' , '死亡', '治愈']
-col_names_p =  ['省','确认' , '死亡', '治愈']
+col_names =  ['省', '市', '新增确认','确认' , '死亡', '治愈']
+col_names_p =  ['省','确认', '新增确认',  '死亡', '治愈']
 
 my_df  = pd.DataFrame(columns = col_names)
 my_df_p = pd.DataFrame(columns = col_names_p)
@@ -43,9 +43,10 @@ for item in areaTree:
             confirm = item_p['total']['confirm']
             death = item_p['total']['dead']
             heal = item_p['total']['heal']
+            new_confirm = item_p['today']['confirm']
 
             # 向df添加数据
-            data_dict = {'省': province,'确认': confirm, '死亡': death, '治愈': heal}
+            data_dict = {'省': province,'新增确认':new_confirm,'确认': confirm, '死亡': death, '治愈': heal}
             my_df_p.loc[len(my_df_p)] = data_dict
 
             # 遍历地级数据
@@ -54,13 +55,14 @@ for item in areaTree:
                 prefecture = item_c['name']
                 # print('  ' + prefecture)
                 # print('  ' + str(item_c['total']))
+                new_confirm = item_c['today']['confirm']
                 confirm = item_c['total']['confirm']
                 # suspect = item_c['total']['suspect']
                 death = item_c['total']['dead']
                 heal = item_c['total']['heal']
 
                 # 向df添加数据
-                data_dict = {'省': province, '市':prefecture, '确认': confirm, '死亡': death, '治愈': heal}
+                data_dict = {'省': province, '市':prefecture, '新增确认':new_confirm,'确认': confirm, '死亡': death, '治愈': heal}
                 my_df.loc[len(my_df)] = data_dict
 
 # 保存数据
