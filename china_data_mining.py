@@ -26,7 +26,7 @@ print('数据更新时间 ' + str(lastUpdateTime))
 # part 1. 采集当日数据
 areaTree = data['areaTree']
 
-print('采集当日数据...')
+print('采集当日省市数据...')
 
 # 创建空 dataframes
 col_names =  ['省', '市', '新增确诊','累计确诊', '死亡', '治愈','死亡率','治愈率']
@@ -85,7 +85,7 @@ my_df_p.to_csv(r'./china_province_status_{}.csv'.format(str(lastUpdateTime).spli
 
 # part 2. 采集中国历史数据
 
-print('采集全国历史数据...')
+print('采集中国历史数据...')
 
 china_day_list = data['chinaDayList']
 
