@@ -13,16 +13,18 @@ The data collected contain information at both *province* and *prefecture* level
 
 Fields of the province level output are as follows:
   1. Province (省)
-  2. Confirmed (确认)
-  3. Dead (死亡)
-  4. Healed (治愈)
-
-Fields of the prefecture level output are as follows:
-  1. Province (省)
-  2. Prefecture (市)
+  2. Daily Added Confirmed (新增确认)
   3. Confirmed (确认)
   4. Dead (死亡)
   5. Healed (治愈)
+
+Fields of the prefecture level output are as follows:
+  1. Province (省)
+  2. Daily Added Confirmed (新增确认)
+  3. Prefecture (市)
+  4. Confirmed (确认)
+  5. Dead (死亡)
+  6. Healed (治愈)
   
 To run the script, please make sure you are using python 3.x, and have libraries of pandas and requests installed.
 
@@ -34,7 +36,7 @@ A set of sample results is also provided.
 
 #### Update 02-07-20: Added a new capability to get province level data.
 
-#### Update 02-15-20: Added a new field '新增确认' for newly added confrimed cases, as the data source now provides such info.
+#### Update 02-15-20: Added a new field '新增确认' for daily added confirmed cases, as the data source now provides such info.
 
 ⚠️ Disclaimer / Warning!
 This repository/project is intended for Educational/Research Purposes ONLY.
