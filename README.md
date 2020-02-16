@@ -1,7 +1,7 @@
 
 # China_CoronaVirus_Data_Miner
 
-This simple python script collects data from the coronavirus status updates published by Tecent. 
+This simple python script collects daily data from the coronavirus status updates published by Tecent. 
 
 Data source: https://news.qq.com/zt2020/page/feiyan.htm 
 
