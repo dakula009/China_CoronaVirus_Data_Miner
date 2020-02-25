@@ -57,6 +57,8 @@ A set of sample results is also provided.
 
 #### Update 02-15-20: Added country level data (current + historical); Added death rate and heal rate to all levels.
 
+#### Update 02-26-20: Updated the script to cope with recent changes on data source format 
+
 ⚠️ Disclaimer / Warning!
 This repository/project is intended for Educational/Research Purposes ONLY.
 Please do not use it for any other non-educational or non-research reason and definitely don't depend on it for anything important!
