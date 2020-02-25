@@ -17,6 +17,8 @@ headers = {
 r = requests.get(url % time.time(), headers=headers)
 
 data = json.loads(r.text)
+# print (r.text)
+
 data = json.loads(data['data'])
 
 lastUpdateTime = data['lastUpdateTime']
@@ -85,6 +87,17 @@ my_df_p.to_csv(r'./china_province_status_{}.csv'.format(str(lastUpdateTime).spli
 # part 2. 采集中国历史数据
 
 print('采集中国历史数据...')
+
+# 请求的URL
+url = 'https://view.inews.qq.com/g2/getOnsInfo?name=disease_other'
+
+# 抓取数据
+r = requests.get(url, headers=headers)
+
+# print (r.text)
+
+data = json.loads(r.text)
+data = json.loads(data['data'])
 
 china_day_list = data['chinaDayList']
 
