@@ -47,7 +47,7 @@ To run the script, please make sure you are using python 3.x, and have libraries
 
 A set of sample results is also provided.
 
-## Note: It is recommended running the data collection script on a daily basis. According to Tecent, they will mostly likely to update data between 7:00 - 10:00 am UTC+8, so it's better to run the script after 10:00 am UTC+ 8 everyday. ##
+## Note: It is recommended running the data collection script on a daily basis. According to Tecent, they normally update data between 7:00 - 10:00 am UTC+8 everyday, so it's better to run the script after 10:00 am UTC+ 8 to avoid missing data. ##
 
 # 武汉加油！ 中国加油！ #
 
