@@ -9,7 +9,7 @@ Note: It focuses on China only.
 
 The script grabs the data and save them into three seperate csv files in the path where the script is stored. 
 
-The data collected contain information at *country* , *province* and *prefecture* levels. For country level data, it collects all data from 1/17/2020 to the time being. For province and prefecture level data, it collects data for the day ONLY since there is no historical data available from the data source.
+The data collected contain information at *country* , *province* and *prefecture* levels. For country level data, it collects all data from 1/13/2020 to the time being. For province and prefecture level data, it collects data for the day ONLY since there is no historical data available from the data source.
 
 
 Fields of the country level output are as follows:
